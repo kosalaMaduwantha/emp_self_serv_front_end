@@ -1,0 +1,36 @@
+.employee-container{
+    padding:0; 
+    overflow:hidden;
+    height: 100%;
+}
+
+.employee-container > parent-container-row{
+    background-color:#edeff0;
+}
+
+.sidebar-column {
+    height:110vh; 
+    background-color:#212529;
+}
+
+.sidebar-maincontent-row{
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:40px;
+}
+
+.pro-pic{
+
+}
+
+.main-profile-info{
+    margin-top:40px;
+}
+
+.main-profile-info > h2, h4{
+    color: #F5F5F5;
+}
+
+.main-content-profile-col{
+    background-color: #edeff0;
+}

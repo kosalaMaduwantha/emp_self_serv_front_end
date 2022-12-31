@@ -7,12 +7,22 @@ import { Outlet } from 'react-router-dom';
 function BasicExample() {
   return (
     <>
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar 
+      variant="dark" 
+      bg="dark" 
+      expand="lg"
+      style={{
+        boxShadow: '0 2px 2px 0 rgba(0, 0, 0, 0.2)', 
+      }}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Company Name</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav 
+            className="me-auto"
+            style={{
+              marginLeft:'70px'
+            }}>
             <Nav.Link href="/" >Home</Nav.Link>
             <Nav.Link href="/employeeDetails">Details</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
